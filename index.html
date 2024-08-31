@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise for You</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Initial button -->
+        <button id="introButton">Want to say something...</button>
+        
+        <!-- Birthday message with confetti -->
+        <div id="birthdayMessage" class="hidden">
+            <h1>Happy Birthday, Sadaf!</h1>
+            <canvas id="confettiCanvas"></canvas>
+            <button id="flirtButton">Click Me</button>
+        </div>
+        
+        <!-- Flirty lines with buttons -->
+        <div id="flirtyLines" class="hidden">
+            <p id="flirtyLine"></p>
+            <button id="newLineButton">New Line</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
